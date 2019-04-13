@@ -2587,6 +2587,7 @@ input, select, textarea {
 	.feature {
 		position: relative;
 		height: 20em;
+		margin-bottom: 30px;
 	}
 
 	.feature .image {
@@ -2599,7 +2600,7 @@ input, select, textarea {
 		background-image: url('../../images/product-bronze.jpg');
 	}
 
-	.feature--bronze .image {
+	.feature--silver .image {
 		background-image: url('../../images/product-silver.jpg');
 	}
 

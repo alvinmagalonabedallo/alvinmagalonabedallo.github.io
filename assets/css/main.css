@@ -2599,6 +2599,10 @@ input, select, textarea {
 		background-image: url('../../images/product-bronze.jpg');
 	}
 
+	.feature--bronze .image {
+		background-image: url('../../images/product-silver.jpg');
+	}
+
 	.feature--gold .image {
 		background-image: url('../../images/product-gold.jpg');
 	}

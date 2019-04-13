@@ -2748,6 +2748,8 @@ input, select, textarea {
 
 		#header .logo {
 			background: #4eb980;
+			background-image: url('../../images/alvin-bedallo.jpg');
+			background-size: cover;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;

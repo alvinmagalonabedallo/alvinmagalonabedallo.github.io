@@ -7,6 +7,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+html {
+	scroll-behavior: smooth;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2173,21 +2177,6 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image:after {
-			-moz-transition: opacity 0.25s ease-in-out;
-			-webkit-transition: opacity 0.25s ease-in-out;
-			-ms-transition: opacity 0.25s ease-in-out;
-			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			opacity: 0.2;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
 
 		.image img {
 			display: block;
@@ -2600,10 +2589,28 @@ input, select, textarea {
 		height: 20em;
 	}
 
+	.feature .image {
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.feature--1 .image {
+		background-image: url('../../images/product-brownze.jpg');
+	}
+
+	.feature--2 .image {
+		background-image: url('../../images/product-gold.jpg');
+	}
+
+	.feature--3 .image {
+		background-image: url('../../images/product-platinum.jpg');
+	}
+
 		.feature:after {
 			clear: both;
 			content: '';
-			display: block;
+			display: none;
 		}
 
 		.feature h3, .feature h4, .feature h5, .feature h6 {
@@ -3148,6 +3155,11 @@ input, select, textarea {
 					float: none;
 					height: 15em;
 					width: 100%;
+				}
+
+				.feature .featured-image {
+					width: 100%;
+					max-width: auto;
 				}
 
 				.feature .content {

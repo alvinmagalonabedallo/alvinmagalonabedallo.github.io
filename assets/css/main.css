@@ -2595,15 +2595,15 @@ input, select, textarea {
 		background-position: center;
 	}
 
-	.feature--1 .image {
-		background-image: url('../../images/product-brownze.jpg');
+	.feature--bronze .image {
+		background-image: url('../../images/product-bronze.jpg');
 	}
 
-	.feature--2 .image {
+	.feature--gold .image {
 		background-image: url('../../images/product-gold.jpg');
 	}
 
-	.feature--3 .image {
+	.feature--platinum .image {
 		background-image: url('../../images/product-platinum.jpg');
 	}
 
